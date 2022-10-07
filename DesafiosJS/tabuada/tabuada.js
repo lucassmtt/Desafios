@@ -10,6 +10,7 @@ function cal(){
         while (cont <= 10){
             var item = document.createElement('option')
             item.text = `${ta} x ${cont} = ${cont*ta}`
+            item.value = `resposta${cont}`
             cont ++
             resposta.appendChild(item)
         }
